@@ -1,23 +1,23 @@
-# 🔐 Cybersecurity Lab 1
+# 🔐 Киберсигурност - Лабораторно упражнение 1
 
-## 📚 Description
+## 📚 Описание
 
-This project contains basic cybersecurity exercises implemented in C.
-Made as part of a university cybersecurity course.
+Проектът съдържа основни задачи по киберсигурност, реализирани на езика C.  
+Изпълнен е като част от университетски курс по киберсигурност.
 
-## 🧪 Topics Covered
+## 🧪 Покрити теми
 
-* Caesar Cipher (Brute-force attack)
-* Frequency Analysis
-* Vigenère Cipher
-* Kasiski Method
-* Password Strength Analyzer
+* Цезаров шифър (Brute-force атака)
+* Честотен анализ
+* Виженеров шифър
+* Метод на Касиски
+* Анализ на сигурността на пароли
 
-## 💻 Language
+## 💻 Език
 
 C
 
-## ⚙️ Compilation
+## ⚙️ Компилация
 
 ```bash
 gcc caesar_brute_force.c -o caesar
@@ -28,7 +28,7 @@ gcc kasiski_helper.c -o kasiski
 gcc password_strength_analyzer.c -o password
 ```
 
-## ▶️ Run
+## ▶️ Стартиране
 
 ```bash
 ./caesar
@@ -39,17 +39,17 @@ gcc password_strength_analyzer.c -o password
 ./password
 ```
 
-## 📂 Project Structure
+## 📂 Структура на проекта
 
-* caesar_brute_force.c – brute-force attack on Caesar cipher
-* frequency_analysis_caesar.c – letter frequency histogram
-* vigenere.c – Vigenère encryption
-* vigenere_file_io.c – encryption/decryption with file input/output
-* kasiski_helper.c – repeated trigram detection
-* password_strength_analyzer.c – password evaluation tool
+* caesar_brute_force.c – brute-force атака върху Цезаров шифър  
+* frequency_analysis_caesar.c – честотен анализ на буквите  
+* vigenere.c – имплементация на Виженеров шифър  
+* vigenere_file_io.c – криптиране/декриптиране с файлов вход/изход  
+* kasiski_helper.c – откриване на повтарящи се триграми (метод на Касиски)  
+* password_strength_analyzer.c – оценка на сигурността на парола  
 
-## 👩‍💻 Author
+## 👩‍💻 Автор
 
-Jansel Hasan Mustafa
-Software Engineering Student
-University "Prof. Dr. Asen Zlatarov" – Burgas
+Джансел Хасан Мустафа  
+Студент по софтуерно инженерство  
+Университет „Проф. д-р Асен Златаров“ – Бургас
